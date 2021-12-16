@@ -27,9 +27,7 @@ class HourlyCollectionVC: UIViewController, UICollectionViewDelegate, UICollecti
     
         view.addSubview(collView)
         collView.snp.makeConstraints { make in
-            make.width.equalToSuperview()
-            make.height.equalToSuperview()
-            make.left.right.equalToSuperview()
+            make.top.left.right.bottom.equalToSuperview()
         }
         
     }

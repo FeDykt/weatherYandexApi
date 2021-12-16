@@ -26,9 +26,7 @@ class WeekCollectionVC: UIViewController, UICollectionViewDelegate, UICollection
         collView.backgroundColor = #colorLiteral(red: 0.09713674337, green: 0.1021232381, blue: 0.1191481873, alpha: 1)
         view.addSubview(collView)
         collView.snp.makeConstraints { make in
-            make.width.equalToSuperview()
-            make.height.equalToSuperview()
-            make.left.right.equalToSuperview()
+            make.top.left.right.bottom.equalToSuperview()
         }
         
     }

@@ -19,8 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         let rootVC = ViewController()
-        let navBar = UINavigationController(rootViewController: rootVC)
-        window?.rootViewController = navBar
+//        let navBar = UINavigationController(rootViewController: rootVC)
+        window?.rootViewController = rootVC
         window?.overrideUserInterfaceStyle = .dark
         window?.backgroundColor = #colorLiteral(red: 0.09713674337, green: 0.1021232381, blue: 0.1191481873, alpha: 1)
         window?.makeKeyAndVisible()
